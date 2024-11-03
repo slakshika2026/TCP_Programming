@@ -22,5 +22,6 @@ public class TCPServer {
       out.println("Hello, Client!");
 
       serverSocket.close();
+      clientSocket.close();
    }
 }
