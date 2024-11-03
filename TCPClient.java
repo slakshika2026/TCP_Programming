@@ -16,5 +16,6 @@ public class TCPClient {
       System.out.println("Server response: " + response);
 
       socket.close();
+      
    }
 }
